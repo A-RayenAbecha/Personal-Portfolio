@@ -1,0 +1,14 @@
+.image_wrapper {
+  display: inline-block;
+  padding: 10px; /* Adjust padding for space around each image */
+}
+
+.image_wrapper img {
+  width: 150px; /* Set the desired width */
+  height: 150px; /* Set the desired height */
+  object-fit: contain; /* Ensures the aspect ratio is preserved */
+  margin-right: 100px; /* Add margin between each image */
+  margin-top: 40px !important;
+
+}
+
